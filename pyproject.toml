@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "geospatial"
+version = "0.1.0"
+description = "Proj for working on geospatial data"
+authors = ["danelsender <danelsender@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+geopandas = "^1.0.1"
+cartopy = "^0.24.1"
+rasterio = "^1.4.3"
+rioxarray = "^0.18.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
